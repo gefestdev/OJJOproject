@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.logo__img{
+    margin-top: 25px;
+    padding-right: 40px;
+    padding-left: 80px;
+}
+.menu{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.menu__list{
+    display: flex;
+    margin-top: 43px;
+    list-style-type: none; 
+}
+.menu__list-item + .menu__list-item{
+    margin-left: 40px;
+}
+.menu__list-link{
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.search-point{
+    padding-right: 16px;
+    width: 30px;
+}
+.header{
+    background-color: #333333;
+    height: 111px;
+}
+body{
+    margin: 0;
+    max-width: 1903px;
+}
+.navigation{
+    padding-top: 60px;
+    display: flex;
+    max-width: 160px;
+    margin: 0 auto;
+}
+.navigation__text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 15px;
+}
+.navigation__link{
+    color: #333333;
+}
+.contacts{
+    padding-top: 63px;
+}
+.contacts__upper-text{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.contacts__content{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.general__office{
+
+}
+.general__office-text{
+    padding-bottom: 11px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.location{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.point{
+    margin-right: 14px;
+}
+.point__white{
+    width: 26px;
+}
+.point__white-m{
+    width: 32px;
+}
+.google__maps{
+    width: 1110px;
+    margin: 0 auto;
+}
+.horizontal__linearr{
+    margin-bottom: 60px;
+    margin-top: 50px;
+    border: 1px solid #D6D6D6;
+}
+.bottom__info{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.botton__top-text{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+.horizontal__linear{
+    width: 255px;
+    margin: 0;
+}
+.bottom__content{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 30px;
+}
+.bottom__content-inner{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+}
+.bottom__link{
+    text-decoration: none;
+    color: #333333;
+}
+.bottom__text-inner{
+    width: 260px;
+    height: 63px;
+    line-height: 150%;
+    margin: 0;
+}
+.visa__card-img{
+    padding-top: 21px;
+    padding-right: 20px;
+}
+.phone__number{
+    padding-right: 20px;
+}
+.message__mail{
+    padding-right: 20px;
+}
+.links__sn{
+    margin: 0;
+    padding-top: 9px;
+    padding-right: 20px;
+}
+.social__networks-bottom{
+    
+}
+.finish{
+    margin-top: 60px;
+}
+.finish__layer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.finish__layer-inner{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
